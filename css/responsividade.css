@@ -1,0 +1,46 @@
+@media(max-width: 800px) {
+    header label {
+        display: block;
+    }
+    
+    .menu ul {
+        position: absolute;
+        flex-direction: column;
+        margin-left: 60%;
+        margin-top: 40px;
+        background: rgba(155, 152, 153, 0.3);
+        display: none;
+    }
+    .menu ul li {
+        padding: 20px;
+        transition: background 0.5s;
+    }
+    .menu ul li a:hover{
+        color: #fff;
+    }
+    .menu ul li:hover {
+        background: #D2872C;
+    }
+    input[type=checkbox]:checked ~ .menu ul {
+        display: block;
+    }
+    .page-home {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 50px;
+    }
+    .page-home .content {
+        width: 100%;
+        padding-left: 0;
+        position: unset;
+    }
+    .page-home .background {
+        width: 100%;
+        margin-left: 0;
+    
+    }
+    .page-home .content .btn {
+        margin: 68px auto;
+        
+    }
+}

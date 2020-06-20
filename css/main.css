@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.menu {
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.menu h1 {
+    color: #D2872C;
+   
+}
+.menu ul {
+    display: flex;
+}
+.menu ul li {
+    padding: 0 20px;
+}
+.menu ul li a {
+    color: #766F68;
+}
+.menu ul li:last-child {
+    padding-right: 0;
+}
+label img {
+    width: 30px;
+}
+header #check, label {
+    padding: 50px;
+    position: relative;
+    display: none;
+}
+

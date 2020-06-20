@@ -1,0 +1,39 @@
+.page-home {
+    width: 100%;
+    display: flex;
+}
+.page-home .content { 
+    width: 40%;
+    color: #766F68; 
+    padding-left: 100px;
+    position: relative;
+}
+.page-home .background {
+    width: 60%;
+    margin-left: -130px;
+
+}
+.page-home .content h1 {
+    font-size: 60px;
+    margin-bottom: 85px;
+}
+.page-home .content p {
+    font-size: 26px; 
+}
+.page-home .content .btn {
+    margin-top: 68px;
+    margin-bottom: 68px;
+    background: #D2872C;
+    width: 270px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+.page-home .content .btn a {
+    color: #fff;
+    font-weight: 700;
+    flex: 1;
+    text-align: center;
+}
