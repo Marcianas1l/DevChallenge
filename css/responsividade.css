@@ -1,4 +1,6 @@
-@media(max-width: 800px) {
+/*SMARTPHONES*/
+
+@media(max-width: 600px) {
     header label {
         display: block;
     }
@@ -42,5 +44,92 @@
     .page-home .content .btn {
         margin: 68px auto;
         
+    }
+}
+
+/*TABLETS E DESKTOPS*/
+
+@media (min-width: 601px) {
+    .page-home .content {
+        width: 100%;
+        
+    }
+    .page-home .content h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .page-home .content p {
+        font-size: 13px;
+    }
+    .page-home .content .btn {
+        margin-top: 30px;
+        width: 129px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .page-home .background {
+        margin-left: -318px;
+    }
+
+}
+@media (min-width: 801px) {
+   
+    .page-home .content h1 {
+        font-size: 45px;
+    }
+    .page-home .content p {
+        font-size: 19px;
+    }
+    .page-home .content .btn {
+        width: 204px;
+        height: 50px;
+    }
+    .page-home .background {
+        margin-left: -442px;
+    }
+
+}
+
+/*BIG LANDSCAPES*/
+
+@media (min-width: 1025px) {
+
+    .page-home .content h1 {
+        font-size: 65px;
+    }
+    .page-home .content p {
+        font-size: 28px;
+    }
+    .page-home .content .btn {
+        margin-top: 30px;
+        width: 300px;
+        height: 60px;
+        border-radius: 15px;
+    }
+    .page-home .background {
+        margin-left: -517px;
+    }
+
+}
+
+@media (min-width: 1281px) {
+
+    .menu {
+        font-size: 30px;
+    }
+    .page-home .content h1 {
+        font-size: 80px;
+    }
+    .page-home .content p {
+        font-size: 34px;
+    }
+    .page-home .content .btn {
+        margin-top: 30px;
+        width: 360px;
+        height: 70px;
+        border-radius: 20px;
+    }
+    .page-home .background {
+        margin-left: -740px;
     }
 }
